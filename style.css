@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kodchasan", sans-serif;
+    }
+
+.subtittle{
+    color: #FFFFFF;
+    font-size: 2vw;
+    }
+
+.paragraph{       
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    }
+
+.header{
+    background-color:#050120;
+    display: flex;
+    justify-content: space-between; /*eliminar*/
+    align-items: center;
+    height: 80px;
+    padding: 5px 5%;
+    font-weight: 700;
+    font-style: normal;
+    position: sticky;
+    width: 100vw;
+    overflow: hidden;
+}
+.header .PORTFOLIO{
+    color:white;
+    font-size: 35px;
+    display: block;
+}
+.header .WILDER_AGUILAR{
+    color:white;
+    font-size: 35px;
+}
+.header .nav-links{
+    list-style: none;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links a{
+    font-size: 700;
+    color:#787A91;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: #787A91;
+}
+
+.banner{
+    display: flex;
+    background-color:#050120;
+    color:#FFFFFF;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing:content-box;
+    margin:0;
+    width: 100vw;
+    top:10em; /*149 px*/
+    height: 33em; /*529px*/
+    flex-direction: column;
+    overflow: hidden;
+    }
+
+    .banner .foto{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        width: 21vw;
+        height: 26rem;
+        left: 13vw;
+        right: 13vw;
+        top: 55px; 
+        float:left
+        }
+
+    .banner .Text-banner1{
+        display: flex;
+        position: absolute;
+        font-size: 2.5vw;
+        justify-content: space-between;
+        top:0vw;
+        left: 678px;
+        right: 195px;
+        border-bottom: 0.1rem white solid;
+        padding-bottom: 2vw;
+        flex:1;
+        width: 39vw;
+        height: 4em;
+        }
+
+    .banner .Text-banner2{
+        display: flex;
+        position: absolute;
+        font-size: 2.5vw;
+        padding: 5px 5%;
+        top: 10vw;
+        left: 678px;
+        right: 195px;
+        width: 39vw;
+        height: 4em;
+        }
+
+    .banner .paragraph{
+        display: flex;
+        position: absolute;        
+        font-size: 1.5vw;
+        padding: 5px 5%;
+        top: 15vw;
+        left: 678px;
+        right: 195px;
+        width: 39vw;
+        }
+
+    .buttons{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .button{
+        position: absolute;
+        color:white;
+        background-color: #2309B2;
+        border-color: #787A91;
+        width: 200px;
+        height: 26px;
+        top: 400px;
+        left: 700px;
+    }
+
+    .icons{
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        width: 40vw;
+        height: 40vw;
+        top: 400px;
+        left: 1100px; 
+        cursor: pointer;
+        overflow:hidden;
+    }
+
+
+.proyectos{
+   display:flex;
+   flex-wrap: wrap;
+   position:relative;
+   width: 100vw;
+   color:#FFFFFF;
+   align-items: center;
+   border:2px solid black;
+   padding-left: 17vw;
+   padding-right: 17vw;
+   column-gap: 5vw;
+   row-gap:20rem;
+   overflow: hidden;
+
+}
+.card1, .card2, .card3, .card4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1vw;
+    list-style: none;
+    overflow: hidden;
+}
+
+.img-proy{
+    position: absolute;
+    top:0px;
+    height: 220px;
+    width: 28vw;    
+}
+.contenido{
+    background-color: #0f044c;
+    width: 28vw;
+    height: 245px;
+    color: #FFFFFF;
+    position: relative;
+    top: 220px;
+}
+.link{
+    background-color: #000;
+    color: #ffffff;
+    font-size: 1vw;
+    width: 28vw;
+    height: 52px;
+    position: relative;
+    top: 220px;
+}
+
+.Sobre-mi{
+    background-color: #050120;
+    display:flex; /*convierte en columnas*/
+    color:#FFFFFF;
+    justify-content:center;
+    width: 100vw;
+    }
+
+.subtitulo{
+    font-size: 2vw;
+    border-right: 0.1rem white solid;
+    padding-right: 3em;
+}
+.redaccion{
+    font-size: 1vw;
+    padding-left: 3em;  
+
+}
+.Comentame{
+    background-color: #050120;
+    display:flex; /*convierte en columnas*/
+    color:#FFFFFF;
+    justify-content:center;
+    width: 100vw;
+    }

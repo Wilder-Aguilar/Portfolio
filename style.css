@@ -92,22 +92,29 @@
         position: absolute;
         font-size: 2.5vw;
         justify-content: space-between;
-        top:0vw;
+        top:1vw;
         left: 678px;
         right: 195px;
-        border-bottom: 0.1rem white solid;
-        padding-bottom: 2vw;
-        flex:1;
         width: 39vw;
         height: 4em;
         }
 
+    hr{
+        display: flex;
+        position: absolute;
+        top: 10vw;
+        background-color: white;
+        height: 4px;
+        width: 35vw;
+        left: 44vw;
+        }
+       
     .banner .Text-banner2{
         display: flex;
         position: absolute;
         font-size: 2.5vw;
         padding: 5px 5%;
-        top: 10vw;
+        top: 11vw;
         left: 678px;
         right: 195px;
         width: 39vw;
@@ -212,6 +219,16 @@
     width: 100vw;
     }
 
+.linea-vertical1{
+    display: flex;
+    position: absolute;
+    top: 103vw; /*ajustar al alto final*/
+    background-color: white;
+    height: 15vw;
+    width: 4px;
+    left: 40vw;
+    }
+
 .subtitulo{
     font-size: 2vw;
     border-right: 0.1rem white solid;
@@ -228,4 +245,14 @@
     color:#FFFFFF;
     justify-content:center;
     width: 100vw;
+    }
+
+.linea-vertical2{
+    display: flex;
+    position: absolute;
+    top: 103vw; /*ajustar al alto final*/
+    background-color: white;
+    height: 35vw;
+    width: 4px;
+    left: 50vw;
     }

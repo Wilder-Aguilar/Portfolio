@@ -165,6 +165,10 @@
 
 .proyectos{
    display:flex;
+   display: grid;
+   grid-template-areas: "card 1 card 2 card 2 card 4";
+   grid-template-columns: repeat(2,28vw);
+   grid-column-end: 1000px;
    flex-wrap: wrap;
    position:relative;
    width: 100vw;
@@ -250,9 +254,9 @@
 .linea-vertical2{
     display: flex;
     position: absolute;
-    top: 103vw; /*ajustar al alto final*/
+    top: 131vw; /*ajustar al alto final*/
     background-color: white;
-    height: 35vw;
+    height: 6vw;
     width: 4px;
-    left: 50vw;
+    left: 45vw;
     }

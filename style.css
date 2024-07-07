@@ -84,7 +84,7 @@ h2 {
 .picture img {
     width: 21vw;
     height: auto;
-
+    padding: 20px;
 }
 
 .banner {
@@ -93,7 +93,6 @@ h2 {
     color: #ffffff;
     font-size: 2.5vw;
     margin-left: -60px;
-
 }
 
 .banner .title {
@@ -137,6 +136,53 @@ h2 {
 .icons {
     color: white;
     border-color: #787A91;
+}
+
+.proyectos {
+    grid-area: proyectos;
+    color: #FFFFFF;
+}
+
+.projectrow{
+    display: flex;
+    justify-content: center;
+}
+
+.projectrow .description{
+    font-size: 20px;
+    text-align: center;
+    height: 245px;
+    display: table;
+    background-color: #0F044C;
+        }
+
+.text-description{
+    display: table-cell;
+    vertical-align: middle;
+    width: 390px;
+}
+
+.projects {
+    width:400px;
+    margin: 80px;
+    border: 6px solid #000000;
+    vertical-align: middle;
+}
+
+.projectimg{
+    width:390px;
+}
+
+.link{
+    width:390px;
+}
+
+.buttons{
+    width: 390px;
+    background-color: #050120;
+    color: #FFFFFF;
+    font-size: 24px;
+    height: 52px;
 }
 
 .my {
@@ -409,7 +455,6 @@ h2 {
     align-items: center;
 }
 
-
 /*.go-top-btn {
     position: fixed;
     bottom: 20px;
@@ -425,51 +470,3 @@ h2 {
     background-color: #555;
 }*/
 
-/*h2 {
-    color: #FFFFFF;
-    font-size: 3vw;
-    text-shadow: 3px 3px black;
-}
-
-.proyectos {
-    grid-area: proyectos;
-    position: inline;
-}
-
-div.projects {
-    border: 5px solid black;
-}
-
-div.projects img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.responsive {
-    padding: 0 6px;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 60%;
-        font-size: vw;
-    }
-}
-
-.item4 {
-    grid-area: footer;
-}*/

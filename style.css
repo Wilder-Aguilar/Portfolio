@@ -30,10 +30,10 @@ body {
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 4vw;
+    margin-bottom: 5%;
     position: sticky;
     top: 0;
-    padding: 20px 0;
+    padding: 1.5% 0;
 }
 
 .header .portfolio {
@@ -71,7 +71,7 @@ h2 {
     color: #FFFFFF;
     font-size: 3vw;
     text-shadow: 3px 3px black;
-    padding: 80px 0 0 200px;
+    padding: 5vw 0 0 12.5vw;
 }
 
 .picture {
@@ -82,9 +82,9 @@ h2 {
 }
 
 .picture img {
-    width: 21vw;
+    width: 50%;
     height: auto;
-    padding: 20px;
+    padding: 5%;
 }
 
 .banner {
@@ -92,30 +92,31 @@ h2 {
     background-color: #050120;
     color: #ffffff;
     font-size: 2.5vw;
-    margin-left: -60px;
+    margin-left: -3.75%;
 }
 
 .banner .title {
-    padding-top: 25px;
-    padding-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 1.9%;
 }
 
 .banner hr {
     background-color: white;
-    height: 2px;
-    width: 35vw;
+    height: 0.12%;
+    width: 65%;
 }
 
 .banner .pres {
-    padding-top: 30px;
+    padding-top: 1.9vw;
     padding-bottom: 20px;
 }
 
 .banner .banner-contact {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
-    width: 35vw;
+    padding-top: 3%;
+    width: 65%;
+
 }
 
 .banner .paragraph {
@@ -141,43 +142,44 @@ h2 {
 .proyectos {
     grid-area: proyectos;
     color: #FFFFFF;
+    width: 100vw;
 }
 
-.projectrow{
+.projectrow {
     display: flex;
     justify-content: center;
 }
 
-.projectrow .description{
+.projectrow .description {
     font-size: 20px;
     text-align: center;
     height: 245px;
     display: table;
     background-color: #0F044C;
-        }
+}
 
-.text-description{
+.text-description {
     display: table-cell;
     vertical-align: middle;
     width: 390px;
 }
 
 .projects {
-    width:400px;
+    width: 400px;
     margin: 80px;
     border: 6px solid #000000;
     vertical-align: middle;
 }
 
-.projectimg{
-    width:390px;
+.projectimg {
+    width: 390px;
 }
 
-.link{
-    width:390px;
+.link {
+    width: 390px;
 }
 
-.buttons{
+.buttons {
     width: 390px;
     background-color: #050120;
     color: #FFFFFF;
@@ -191,11 +193,12 @@ h2 {
 }
 
 .linea-vertical1 {
+    position: absolute;
     background-color: white;
-    height: 10vw;
+    height: 35%;
     width: 1px;
     margin-left: 650px;
-    margin-top: -130px;
+    margin-top: 2.5%;
 }
 
 .mytext {
@@ -225,7 +228,7 @@ h2 {
 .skills hr {
     background-color: white;
     height: 1px;
-    width: 20vw;
+    width: 40%;
     margin-top: 20px;
     margin-left: 230px;
 }
@@ -254,7 +257,6 @@ h2 {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 30px;
-
 }
 
 .percentage100 {
@@ -387,10 +389,11 @@ h2 {
 .linea-vertical2 {
     position: absolute;
     background-color: white;
-    height: 25vw;
+    height: 50
+    %;
     width: 1px;
-    margin-left: 700px;
-    margin-top: 50px;
+    margin-left: 45%;
+    margin-top: 4%;
 }
 
 .form {
@@ -453,7 +456,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    }
 
 /*.go-top-btn {
     position: fixed;
@@ -469,4 +472,3 @@ h2 {
 .go-top-btn:hover {
     background-color: #555;
 }*/
-

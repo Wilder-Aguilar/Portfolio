@@ -67,6 +67,13 @@ body {
     font-size: 2.5vw;
 }
 
+h2 {
+    color: #FFFFFF;
+    font-size: 3vw;
+    text-shadow: 3px 3px black;
+    padding: 80px 0 0 200px;
+}
+
 .picture {
     grid-area: picture;
     background-color: #050120;
@@ -320,14 +327,12 @@ body {
     }
 }
 
-
 .contact {
     grid-area: contact;
     background-color: #050120;
 }
 
 .textcontact {
-
     font-size: 24px;
     padding: 40px 0 0 200px;
     color: #FFFFFF;
@@ -374,7 +379,12 @@ body {
     border-radius: 5px;
     box-shadow: 6px 6px #FFFFFF;
     margin-bottom: 50px;
-    justify-content: center;
+}
+
+.formbutton {
+    display: flexbox;
+    align-content: center;
+    margin-left: 130px;
 }
 
 .footer {
@@ -396,16 +406,11 @@ body {
     width: 20%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-h2 {
-    color: #FFFFFF;
-    font-size: 3vw;
-    text-shadow: 3px 3px black;
-    padding: 80px 0 0 200px;
-}
 
-.go-top-btn {
+/*.go-top-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -418,7 +423,7 @@ h2 {
 
 .go-top-btn:hover {
     background-color: #555;
-}
+}*/
 
 /*h2 {
     color: #FFFFFF;

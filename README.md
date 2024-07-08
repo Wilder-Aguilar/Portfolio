@@ -5,29 +5,6 @@ This project is a summary presentation about myself, where I show my work experi
 
 The design of the Portfolio was made in figma, you can see it in the following link: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Go to Visual Studio Code
-
-```bash
-  code .
-```
-
-Start html preview
-
-
 ## Tech Stack
 
 **Client:** HTML, CSS

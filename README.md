@@ -3,7 +3,7 @@
 
 This project is a summary presentation about myself, where I show my work experience, skills both in the frontend and backend, finished projects in which I have put my knowledge and skills into practice.
 
-The design of the Portfolio was made in figma, you can see it in the following link: <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1" allowfullscreen></iframe>
+The design of the Portfolio was made in figma, you can see it in the following link: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1
 
 ## Run Locally
 

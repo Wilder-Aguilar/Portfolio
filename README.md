@@ -1,9 +1,9 @@
 
 # MY PORTFOLIO
 
-This project is a summary presentation about myself, where I show my work experience, skills both in the frontend and backend, finished projects in which I have put my knowledge and skills into practice.
+Este proyecto es una presentación resumida sobre mi persona, donde muestro mi experiencia laboral, habilidades tanto en el frontend como en el backend, proyectos terminados en los que he puesto en práctica mis conocimientos y habilidades.
 
-The design of the Portfolio was made in figma, you can see it in the following link: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1
+El diseño del Portfolio fue realizado en figma, podéis verlo en el siguiente enlace: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1
 
 ## Tech Stack
 
@@ -24,4 +24,4 @@ The design of the Portfolio was made in figma, you can see it in the following l
 
 ## Optimizations
 
-To optimize the project, you could refactor the code, apply sass and extend to the mobile version
+Para optimizar el proyecto, podrías refactorizar el código, aplicar sass y extenderlo a la versión móvil

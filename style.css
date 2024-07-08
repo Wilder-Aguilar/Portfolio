@@ -457,18 +457,3 @@ h2 {
     justify-content: space-between;
     align-items: center;
     }
-
-/*.go-top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px;
-    background-color: #AEDEDE;
-    color: #fff;
-    text-decoration: none;
-    display: none;
-}
-
-.go-top-btn:hover {
-    background-color: #555;
-}*/

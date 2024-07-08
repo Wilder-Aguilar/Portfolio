@@ -1,9 +1,31 @@
 
 # MY PORTFOLIO
 
-Este proyecto es una presentación resumida sobre mi persona, donde muestro mi experiencia laboral, habilidades tanto en el frontend como en el backend, proyectos terminados en los que he puesto en práctica mis conocimientos y habilidades.
+This project is a summary presentation about myself, where I show my work experience, skills both in the frontend and backend, finished projects in which I have put my knowledge and skills into practice.
 
-El diseño del Portfolio fue realizado en figma, podéis verlo en el siguiente enlace: https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FWwYMf1eUgUE9bVQKXYOrER%2FPortfolio-Wilder-Aguilar%3Fnode-id%3D0-1%26t%3DMT2tZVPWwDIrjoBR-1
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Go to Visual Studio Code
+
+```bash
+  code .
+```
+
+Start html preview
+
 
 ## Tech Stack
 
@@ -24,4 +46,4 @@ El diseño del Portfolio fue realizado en figma, podéis verlo en el siguiente e
 
 ## Optimizations
 
-Para optimizar el proyecto, podrías refactorizar el código, aplicar sass y extenderlo a la versión móvil
+To optimize the project, you could refactor the code, apply sass and extend to the mobile version
